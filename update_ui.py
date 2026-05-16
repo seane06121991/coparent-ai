@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+html = open('static/index.html').read() if False else r"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -266,4 +266,8 @@ function toast(msg){const el=document.getElementById('toast');el.textContent=msg
 (async()=>{const saved=localStorage.getItem('cp_state');if(saved){Object.assign(state,JSON.parse(saved));applySession();await loadNegs();goTo('screen-dashboard');}})();
 </script>
 </body>
-</html>
+</html>"""
+
+with open('static/index.html', 'w') as f:
+    f.write(html)
+print("Done! UI updated.")
