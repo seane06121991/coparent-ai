@@ -1,0 +1,69 @@
+{
+  "film": "SALT",
+  "logline": "On the last night before a lighthouse is decommissioned, its aging keeper climbs the tower one final time as a storm rolls in.",
+  "render": { "width": 1280, "height": 720, "aspect": "16:9" },
+  "style_suffix": "Shot on 35mm Kodak Vision3 500T film, cinematic teal-and-amber grade, fine organic film grain, deep atmospheric haze, natural volumetric light, anamorphic lens character with gentle falloff, muted painterly color palette",
+  "character_bible": "The keeper: a weathered man in his late 60s, short white beard, deep-set grey eyes, navy wool fisherman's sweater, dark oilskin coat, flat wool cap",
+  "shots": [
+    {
+      "id": 1,
+      "name": "establishing",
+      "duration_s": 5,
+      "type": "I2V",
+      "seed": 4101,
+      "first_frame": "Wide establishing shot of a lone white lighthouse on a black basalt headland at dusk, enormous slate storm clouds gathering on the horizon, last band of golden sunlight cutting low across churning grey-green sea, sea spray drifting off the rocks, tiny warm window lit at the lighthouse base. 24mm wide lens, f/8, deep focus, rule-of-thirds composition with the lighthouse on the right third",
+      "last_frame": null,
+      "motion_prompt": "Slow push-in toward the lighthouse. Storm clouds crawl forward and thicken, waves swell and crash against the basalt rocks in heavy rhythm, sea spray drifts across frame, the warm window light flickers once. Fixed horizon, smooth cinematic dolly, measured pacing, no camera shake."
+    },
+    {
+      "id": 2,
+      "name": "the keeper listens",
+      "duration_s": 4,
+      "type": "FLF2V",
+      "seed": 4102,
+      "first_frame": "Interior close-up of a weathered man in his late 60s with a short white beard, deep-set grey eyes and a navy wool fisherman's sweater, seated at a small wooden table in a dim lighthouse kitchen, face lit by a single warm oil lamp, steam rising from an enamel mug, his eyes lowered toward the mug. 85mm f/1.8, shallow depth of field, warm key light from the lamp at left, cool blue dusk spill from a small window at right",
+      "last_frame": "Same man, same kitchen, same lamp light and framing — his head now lifted and turned toward the window, eyes alert, listening, brow slightly furrowed",
+      "motion_prompt": "The distant rumble of thunder. The man slowly raises his head from the mug and turns toward the window, eyes sharpening as he listens. Steam continues to curl from the mug. The lamp flame trembles slightly. Camera locked off, fixed lens, intimate and still, subtle breathing motion only."
+    },
+    {
+      "id": 3,
+      "name": "the stairs",
+      "duration_s": 5,
+      "type": "FLF2V",
+      "seed": 4103,
+      "first_frame": "Low-angle interior shot looking up a spiral cast-iron lighthouse staircase, a weathered man in his late 60s in a dark oilskin coat and flat wool cap beginning to climb at the bottom of frame, hand on the rail, a storm lantern in his other hand throwing warm swinging light up whitewashed curved walls, cold blue light falling from a small porthole above. 35mm lens, f/2.8, dramatic spiral composition receding upward",
+      "last_frame": "Same spiral staircase, same lighting — the man now halfway up the visible flight, lantern raised higher, his shadow stretched long and curved across the whitewashed wall",
+      "motion_prompt": "The keeper climbs the spiral stairs with steady, deliberate steps. The lantern swings gently, its warm light sweeping across the curved wall with each step, his long shadow rotating around the staircase. Camera slowly tilts up following him. Boots ring on cast iron. Measured, weighty pacing."
+    },
+    {
+      "id": 4,
+      "name": "the lamp room",
+      "duration_s": 5,
+      "type": "FLF2V",
+      "seed": 4104,
+      "first_frame": "Interior of a lighthouse lamp room at nightfall, a colossal first-order Fresnel lens of layered glass prisms dominating the frame, dark and unlit, a weathered man in his late 60s in a dark oilskin coat standing before it with his flat cap in his hands, storm-dark sky and rain-streaked windows wrapping 360 degrees behind him, faint blue ambient light. 35mm f/2.8, the man small against the great lens, symmetrical composition",
+      "last_frame": "Same lamp room, same framing — the Fresnel lens now blazing alight, brilliant warm beams refracting through every prism, the man silhouetted against the glare, cap still in his hands, rain glittering on the black windows",
+      "motion_prompt": "The man reaches out of frame and the great Fresnel lens ignites — light blooms outward through the layered prisms, shafts of warm gold sweep across the room and catch the rain on the windows like sparks. The man becomes a silhouette. Camera holds locked and reverent, slow bloom of light, dust motes igniting in the beams."
+    },
+    {
+      "id": 5,
+      "name": "the beam",
+      "duration_s": 6,
+      "type": "I2V",
+      "seed": 4105,
+      "first_frame": "Exterior night wide shot of the lighthouse in full storm, a solid blade of warm light sweeping from the lamp room across driving rain and colossal waves exploding white against the basalt headland, moonless black sky, the tower standing rigid amid the chaos. 24mm wide lens, long-exposure feel, high contrast, the beam cutting a diagonal across the frame",
+      "last_frame": null,
+      "motion_prompt": "The lighthouse beam rotates in slow majestic sweeps through sheets of driving rain, illuminating the storm one slice at a time. Enormous waves detonate against the rocks, spray thrown mast-high. Rain streaks through the beam. Camera fixed on a distant vantage, trembling almost imperceptibly in the wind."
+    },
+    {
+      "id": 6,
+      "name": "dawn",
+      "duration_s": 5,
+      "type": "FLF2V",
+      "seed": 4106,
+      "first_frame": "The weathered keeper in his navy wool sweater standing at the lamp room's open gallery door at first light, seen from behind in medium shot, storm broken, sky washed pale rose and silver over a calmed pewter sea, his cap in his hand at his side, wet gallery railing catching the dawn. 50mm f/2.8, soft diffused morning light from the right, quiet negative space over the sea",
+      "last_frame": "Same framing, same dawn light — the keeper now with his cap pressed to his chest, head slightly bowed toward the sea, gulls distant in the pale sky",
+      "motion_prompt": "Gentle dawn breeze moves through the scene. The old keeper slowly raises his cap and presses it to his chest, head bowing a fraction toward the sea in a quiet farewell. Distant gulls drift across the pale sky. Water drips from the railing. Camera locked off, long peaceful beats, almost still."
+    }
+  ]
+}
