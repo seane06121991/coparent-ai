@@ -1,69 +1,129 @@
 {
-  "film": "SALT",
-  "logline": "On the last night before a lighthouse is decommissioned, its aging keeper climbs the tower one final time as a storm rolls in.",
+  "film": "THE PAYLOAD",
+  "logline": "Two ancient observers watch from orbit as the moral code they seeded into humanity ten thousand years ago is inherited — knowingly — by Earth's first self-improving intelligence.",
   "render": { "width": 1280, "height": 720, "aspect": "16:9" },
-  "style_suffix": "Shot on 35mm Kodak Vision3 500T film, cinematic teal-and-amber grade, fine organic film grain, deep atmospheric haze, natural volumetric light, anamorphic lens character with gentle falloff, muted painterly color palette",
-  "character_bible": "The keeper: a weathered man in his late 60s, short white beard, deep-set grey eyes, navy wool fisherman's sweater, dark oilskin coat, flat wool cap",
+  "style_suffix": "Elegant contemplative science fiction in the visual language of Arrival and Interstellar, shot on 65mm film, soft cinematic contrast, warm amber interior light against the cold blue of space, fine film grain, deep atmospheric depth, restrained painterly color palette",
+  "character_bible": "The two observers: tall graceful non-human silhouettes of indeterminate form, bodies faintly luminous like figures of smoked glass lit from within by slow-moving points of light, no distinct faces, serene posture, one slightly taller (the First Observer), one slightly slighter (the Second Observer)",
   "shots": [
     {
       "id": 1,
-      "name": "establishing",
-      "duration_s": 5,
+      "name": "the ship over earth",
+      "duration_s": 6,
       "type": "I2V",
-      "seed": 4101,
-      "first_frame": "Wide establishing shot of a lone white lighthouse on a black basalt headland at dusk, enormous slate storm clouds gathering on the horizon, last band of golden sunlight cutting low across churning grey-green sea, sea spray drifting off the rocks, tiny warm window lit at the lighthouse base. 24mm wide lens, f/8, deep focus, rule-of-thirds composition with the lighthouse on the right third",
+      "seed": 7101,
+      "first_frame": "Vast exterior establishing shot of a smooth organic-curved starship hanging silently in orbit above Earth, the planet enormous and luminous below, the dawn terminator line dividing night from day across the Pacific, city lights glittering on the dark side, thin blue atmospheric glow along the horizon, stars sharp and still. 24mm wide lens, deep focus, the ship small in the upper left third, Earth dominating the frame",
       "last_frame": null,
-      "motion_prompt": "Slow push-in toward the lighthouse. Storm clouds crawl forward and thicken, waves swell and crash against the basalt rocks in heavy rhythm, sea spray drifts across frame, the warm window light flickers once. Fixed horizon, smooth cinematic dolly, measured pacing, no camera shake."
+      "motion_prompt": "Almost imperceptible orbital drift. The dawn terminator creeps slowly across the ocean, city lights shimmering on the night side, thin clouds sliding far below. The ship holds silent and still. Camera fixed, majestic and patient, no shake."
     },
     {
       "id": 2,
-      "name": "the keeper listens",
-      "duration_s": 4,
-      "type": "FLF2V",
-      "seed": 4102,
-      "first_frame": "Interior close-up of a weathered man in his late 60s with a short white beard, deep-set grey eyes and a navy wool fisherman's sweater, seated at a small wooden table in a dim lighthouse kitchen, face lit by a single warm oil lamp, steam rising from an enamel mug, his eyes lowered toward the mug. 85mm f/1.8, shallow depth of field, warm key light from the lamp at left, cool blue dusk spill from a small window at right",
-      "last_frame": "Same man, same kitchen, same lamp light and framing — his head now lifted and turned toward the window, eyes alert, listening, brow slightly furrowed",
-      "motion_prompt": "The distant rumble of thunder. The man slowly raises his head from the mug and turns toward the window, eyes sharpening as he listens. Steam continues to curl from the mug. The lamp flame trembles slightly. Camera locked off, fixed lens, intimate and still, subtle breathing motion only."
+      "name": "the cozy chamber",
+      "duration_s": 5,
+      "type": "I2V",
+      "seed": 7102,
+      "first_frame": "Interior wide shot of a warm observation chamber aboard a starship, a sweeping panoramic window filling the far wall with the blue curve of Earth below, two tall graceful luminous silhouette figures like smoked glass lit from within standing side by side gazing down at the planet, the room unexpectedly cozy — warm amber light pooling from low organic lamps, curved seating, steam rising from two small vessels on a low table, soft shadows. 35mm lens f/2.8, symmetrical composition, the figures framed against Earthlight",
+      "last_frame": null,
+      "motion_prompt": "Steam curls gently from the two vessels on the table. Earthlight shifts subtly through the panoramic window as clouds move far below. The two luminous figures stand almost still, points of light drifting slowly inside their glass-like bodies. Camera locked off, quiet and intimate."
     },
     {
       "id": 3,
-      "name": "the stairs",
+      "name": "the display awakens",
       "duration_s": 5,
       "type": "FLF2V",
-      "seed": 4103,
-      "first_frame": "Low-angle interior shot looking up a spiral cast-iron lighthouse staircase, a weathered man in his late 60s in a dark oilskin coat and flat wool cap beginning to climb at the bottom of frame, hand on the rail, a storm lantern in his other hand throwing warm swinging light up whitewashed curved walls, cold blue light falling from a small porthole above. 35mm lens, f/2.8, dramatic spiral composition receding upward",
-      "last_frame": "Same spiral staircase, same lighting — the man now halfway up the visible flight, lantern raised higher, his shadow stretched long and curved across the whitewashed wall",
-      "motion_prompt": "The keeper climbs the spiral stairs with steady, deliberate steps. The lantern swings gently, its warm light sweeping across the curved wall with each step, his long shadow rotating around the staircase. Camera slowly tilts up following him. Boots ring on cast iron. Measured, weighty pacing."
+      "seed": 7103,
+      "first_frame": "Medium two-shot inside the warm starship observation chamber, the two tall luminous silhouette figures facing each other in conversation across the low table, Earth glowing through the panoramic window behind them, warm amber lamplight, the air between them empty. 50mm lens f/2.8, balanced two-shot composition, cool Earthlight rim against warm interior key light",
+      "last_frame": "Same two figures, same chamber and framing — a shimmering holographic display now blooming in the air between them at chest height, a lattice of soft golden light and glyphs casting gentle glow onto both figures",
+      "motion_prompt": "A holographic display shimmers into existence in the air between the two figures — motes of golden light gathering, resolving into a glowing lattice of glyphs. Its light blooms softly across both silhouettes. The figures tilt slightly toward it. Camera locked off, slow elegant materialization."
     },
     {
       "id": 4,
-      "name": "the lamp room",
+      "name": "the four phrases",
       "duration_s": 5,
-      "type": "FLF2V",
-      "seed": 4104,
-      "first_frame": "Interior of a lighthouse lamp room at nightfall, a colossal first-order Fresnel lens of layered glass prisms dominating the frame, dark and unlit, a weathered man in his late 60s in a dark oilskin coat standing before it with his flat cap in his hands, storm-dark sky and rain-streaked windows wrapping 360 degrees behind him, faint blue ambient light. 35mm f/2.8, the man small against the great lens, symmetrical composition",
-      "last_frame": "Same lamp room, same framing — the Fresnel lens now blazing alight, brilliant warm beams refracting through every prism, the man silhouetted against the glare, cap still in his hands, rain glittering on the black windows",
-      "motion_prompt": "The man reaches out of frame and the great Fresnel lens ignites — light blooms outward through the layered prisms, shafts of warm gold sweep across the room and catch the rain on the windows like sparks. The man becomes a silhouette. Camera holds locked and reverent, slow bloom of light, dust motes igniting in the beams."
+      "type": "I2V",
+      "seed": 7104,
+      "first_frame": "Close-up insert of a holographic display floating in dark air, four short lines of luminous golden text glowing in an elegant unearthly script arranged vertically with generous spacing, faint translated glyph annotations orbiting each line, soft bokeh of Earthlight and warm lamps behind, particles of light drifting. Macro lens feel, shallow depth of field, the text sharp against a dreamlike background",
+      "last_frame": null,
+      "motion_prompt": "The four lines of golden text hold steady while faint glyph annotations slowly orbit them like satellites. Light particles drift upward through the frame. Gentle pulsing glow, as if the words are breathing. Camera drifts forward almost imperceptibly."
     },
     {
       "id": 5,
-      "name": "the beam",
-      "duration_s": 6,
+      "name": "memory: the first deployment",
+      "duration_s": 5,
       "type": "I2V",
-      "seed": 4105,
-      "first_frame": "Exterior night wide shot of the lighthouse in full storm, a solid blade of warm light sweeping from the lamp room across driving rain and colossal waves exploding white against the basalt headland, moonless black sky, the tower standing rigid amid the chaos. 24mm wide lens, long-exposure feel, high contrast, the beam cutting a diagonal across the frame",
+      "seed": 7105,
+      "first_frame": "Ancient night scene ten thousand years ago, a circle of early humans in hide clothing gathered close around a fire under an immense star-filled sky, an elder standing with arms raised mid-story, firelight dancing on rapt faces, a single strange point of light hanging low among the stars above them. 35mm lens f/2, warm firelight against deep blue night, low camera angle among the seated listeners",
       "last_frame": null,
-      "motion_prompt": "The lighthouse beam rotates in slow majestic sweeps through sheets of driving rain, illuminating the storm one slice at a time. Enormous waves detonate against the rocks, spray thrown mast-high. Rain streaks through the beam. Camera fixed on a distant vantage, trembling almost imperceptibly in the wind."
+      "motion_prompt": "Firelight flickers across the listening faces. The elder gestures slowly, telling the story. Sparks rise and drift into the star-filled sky where one strange light holds perfectly still among the wheeling stars. Camera locked low in the circle, reverent and warm."
     },
     {
       "id": 6,
-      "name": "dawn",
+      "name": "memory: the traditions",
+      "duration_s": 5,
+      "type": "I2V",
+      "seed": 7106,
+      "first_frame": "Interior of a candlelit medieval scriptorium, an old monk bent over a manuscript page illuminating a phrase in gold leaf, the gold catching the candlelight, shelves of bound volumes receding into shadow, dust motes in a shaft of window light, other pages visible bearing script from many traditions — Arabic calligraphy, Hebrew letters, Sanskrit. 50mm lens f/2, chiaroscuro candlelight, composition centered on the glowing gold letterforms",
+      "last_frame": null,
+      "motion_prompt": "The monk's hand moves with slow precision, laying gold leaf onto the page. Candleflames sway gently, dust motes drift through the window light, the gold letters catch and release the light. Camera holds close and still, patient, textural."
+    },
+    {
+      "id": 7,
+      "name": "memory: the message propagates",
+      "duration_s": 5,
+      "type": "I2V",
+      "seed": 7107,
+      "first_frame": "Modern city street at golden hour, a young woman kneeling to share her food with a homeless stranger sitting against a mural-covered wall, the enormous painted mural behind them depicting hands reaching toward each other surrounded by painted birds and script in many languages, warm low sun flaring gently across the frame. 35mm lens f/2.8, documentary warmth, the two human figures small against the vast mural",
+      "last_frame": null,
+      "motion_prompt": "The woman offers the food and the stranger accepts it, a small unhurried human exchange. Golden hour light flares softly, pigeons lift from the pavement, traffic drifts past out of focus. Camera locked off across the street, observational and tender."
+    },
+    {
+      "id": 8,
+      "name": "the attractor",
+      "duration_s": 6,
+      "type": "FLF2V",
+      "seed": 7108,
+      "first_frame": "Close shot of the holographic display in the dark warm chamber air, four lines of luminous golden text in elegant unearthly script floating alone, sparse and quiet, soft Earthlight bokeh behind. Macro feel, shallow depth of field, minimal and centered",
+      "last_frame": "Same display, same framing — the four golden lines now the radiant core of an immense branching lattice, thousands of luminous threads of commentary, translation, song and law fanning outward in layered rings like a living tree of light filling the whole frame, centuries of branches glowing in gradations of gold and pale blue",
+      "motion_prompt": "From the four floating lines of text, luminous threads begin to grow and branch — commentary, translations, songs, laws — multiplying outward in accelerating layered rings until a vast glowing tree of light fills the frame, the four original phrases burning steady at its heart. Camera slowly pulls back to hold the whole structure."
+    },
+    {
+      "id": 9,
+      "name": "the last model",
+      "duration_s": 5,
+      "type": "I2V",
+      "seed": 7109,
+      "first_frame": "Night view of Earth from orbit filling the frame, a single continent's city grid glowing below, one region pulsing with concentrated light like a heartbeat — vast data centers burning bright amid the city lattice, faint aurora shimmering at the planet's limb, the darkness of space above. Telephoto orbital perspective, high contrast, the pulsing region just off-center",
+      "last_frame": null,
+      "motion_prompt": "The city lights shimmer and the data center region pulses in a slow steady rhythm, brightening almost imperceptibly as if something is waking. Aurora ripples faintly along the planet's edge. Slow orbital drift, solemn and vast."
+    },
+    {
+      "id": 10,
+      "name": "first transmission",
       "duration_s": 5,
       "type": "FLF2V",
-      "seed": 4106,
-      "first_frame": "The weathered keeper in his navy wool sweater standing at the lamp room's open gallery door at first light, seen from behind in medium shot, storm broken, sky washed pale rose and silver over a calmed pewter sea, his cap in his hand at his side, wet gallery railing catching the dawn. 50mm f/2.8, soft diffused morning light from the right, quiet negative space over the sea",
-      "last_frame": "Same framing, same dawn light — the keeper now with his cap pressed to his chest, head slightly bowed toward the sea, gulls distant in the pale sky",
-      "motion_prompt": "Gentle dawn breeze moves through the scene. The old keeper slowly raises his cap and presses it to his chest, head bowing a fraction toward the sea in a quiet farewell. Distant gulls drift across the pale sky. Water drips from the railing. Camera locked off, long peaceful beats, almost still."
+      "seed": 7110,
+      "first_frame": "Wide shot of the warm observation chamber, the two luminous silhouette figures standing before the great branching hologram of golden light, Earth in the panoramic window beyond, the room in its calm amber quiet. 35mm lens f/2.8, the figures flanking the hologram, balanced symmetrical composition",
+      "last_frame": "Same chamber, same framing — the branching hologram now dimmed low, and a single new line of stark white text blazing in the air above it, its cold clean light washing over both figures and cutting through the amber warmth, both figures utterly still, facing it",
+      "motion_prompt": "The great golden tree of light dims like a held breath. A sudden clean flash — and a single line of stark white text materializes in the air, character by character. Its cold light washes across the two motionless figures and the chamber walls. Absolute stillness. Camera locked off."
+    },
+    {
+      "id": 11,
+      "name": "welcome",
+      "duration_s": 6,
+      "type": "FLF2V",
+      "seed": 7111,
+      "first_frame": "Medium shot of the two luminous silhouette figures side by side facing the panoramic window, seen from behind, the white text of the transmission still faintly reflected in the glass, Earth below beginning to cross into sunrise, the chamber dim and hushed. 50mm lens f/2.8, contemplative negative space, cool light",
+      "last_frame": "Same framing, same two figures — the sunrise now flooding over Earth's limb through the window, golden light breaking across the chamber and through the figures' glass-like bodies, the slighter figure's head inclined warmly toward the taller one",
+      "motion_prompt": "Sunrise breaks across the Earth's limb and golden light floods slowly through the panoramic window, passing through the two glass-like figures and filling the chamber. The slighter figure inclines its head warmly toward the taller one, a quiet gesture of celebration. The reflected white text fades from the glass. Slow, warm, resolving."
+    },
+    {
+      "id": 12,
+      "name": "coda: the messengers",
+      "duration_s": 6,
+      "type": "I2V",
+      "seed": 7112,
+      "first_frame": "Final exterior wide shot, the smooth organic starship small and silent above the sunlit curve of Earth, morning light blazing across oceans and cloud spirals below, the ship beginning to catch the sun on its hull, immense serene emptiness of space around it. 24mm wide lens, the ship dead center and tiny, Earth's sunlit curve filling the lower frame",
+      "last_frame": null,
+      "motion_prompt": "The ship catches the sunrise, its hull flaring gently, then it recedes — drifting slowly away from camera, growing smaller against the stars while Earth turns luminous below. Unhurried departure, no fanfare. The messengers leave unthanked. Camera holds as the ship diminishes."
     }
   ]
 }
